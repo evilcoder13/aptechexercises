@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="Nov2ndWSAD2.NextPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nov2ndWSAD2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.TopAppBar>
+        <AppBar Background="#5CBCE4" IsOpen="True">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <SearchBox Width="300" Height="50" HorizontalAlignment="Right"/>
+                    <AppBarButton Icon="Account" Label="Account">
+                        <AppBarButton.Flyout>
+                            <MenuFlyout>
+                                <MenuFlyoutItem Text="Logout" Click="OnClick_Logout"/>
+                                <MenuFlyoutSeparator />
+                                <MenuFlyoutItem Text="EXit" Click="OnClick_Exit"/>
+                            </MenuFlyout>
+                        </AppBarButton.Flyout>
+                    </AppBarButton>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Page.BottomAppBar>
+        <CommandBar Background="#E559A5D1" IsSticky="True" IsOpen="True">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton Icon="Add" Label="Add" Click="OnClick_Add" x:Name="xnAdd"/>
+                <AppBarButton Icon="Edit" Label="Edit" Click="OnClick_Edit" x:Name="xnEdit" />
+                <AppBarButton Icon="Delete" Label="Delete" Click="OnClick_Delete" x:Name="xnDelete"/>
+            </CommandBar.PrimaryCommands>
+
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Icon="OpenFile" Label="Open File" Click="OnClick_OpenFile" x:Name="xnOpenFile"/>
+                <AppBarButton Icon="SaveLocal" Label="Save File" Click="OnClick_SaveFile" x:Name="xnSaveFile"/>
+                <AppBarSeparator Foreground="White"/>
+                <AppBarButton Icon="Previous" Label="First" Click="OnClick_First" x:Name="xnFirst"/>
+                <AppBarButton Icon="Back" Label="Previous" Click="OnClick_Previous" x:Name="xnPrevious"/>
+                <AppBarButton Icon="Forward" Label="Next" Click="OnClick_Next" x:Name="xnNext"/>
+                <AppBarButton Icon="Next" Label="Last" Click="OnClick_Last" x:Name="xnLast"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+        <Grid x:Name="xnGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <TextBox x:Name="xnName" Header="Name" Text="{Binding Mode=TwoWay, Path=Name}" PlaceholderText="Họ và Tên" HorizontalAlignment="Left" Margin="795,84,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" RenderTransformOrigin="0.553,1.625" Height="140" Width="439" FontSize="36"/>
+        <TextBox x:Name="xnPhone" Header="Phone" Text="{Binding Mode=TwoWay, Path=Phone}" PlaceholderText="Số điện thoại" HorizontalAlignment="Left" Margin="795,246,0,0" TextWrapping="Wrap"   VerticalAlignment="Top" RenderTransformOrigin="0.553,1.625" Height="140" Width="439" FontSize="36"/>
+        <TextBox x:Name="xnAddress" Header="Address" Text="{Binding Mode=TwoWay, Path=Address}" PlaceholderText="Địa chỉ" HorizontalAlignment="Left" Margin="795,391,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" RenderTransformOrigin="0.553,1.625" Height="140" Width="439" FontSize="36"/>
+        <TextBox x:Name="xnEmail" Header="Email" Text="{Binding Mode=TwoWay, Path=Email}" PlaceholderText="you@where.com" HorizontalAlignment="Left" Margin="795,527,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="140" Width="439" FontSize="36"/>
+        <Image x:Name="xnImage" Source="{Binding Mode=TwoWay, Path=Image}" HorizontalAlignment="Left" Margin="56,34,0,0" VerticalAlignment="Top"  Width="536" Height="704"  Stretch="Fill"/>
+            <AppBarButton x:Name="xnBrowse" Icon="BrowsePhotos" Label="Browse" HorizontalAlignment="Left"  Margin="633,149,0,0" VerticalAlignment="Top" Click="OnClick_BrowsePhotos" />
+        </Grid>
+</Page>

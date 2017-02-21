@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Oct17thWSADEmployeeManagement.EmployeeDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Oct17thWSADEmployeeManagement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Name="txtID" Text="{Binding Id}" />
+            <TextBlock Name="txtName" Text="{Binding Name}" />
+            <TextBlock Name="txtDOB" Text="{Binding DOB}" />
+            <TextBlock Name="txtDept" Text="{Binding Department}" />
+        </StackPanel>
+    </Grid>
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal">
+                <AppBarButton Icon="Back" Label="Back" Click="GoBack_Click" />
+                <AppBarButton Icon="Home" Label="Home" Click="GoHome_Click" />
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+</Page>

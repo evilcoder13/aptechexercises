@@ -1,0 +1,10 @@
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\WcfChatService1\bin\WcfChatService1.dll.config
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\WcfChatService1\bin\WcfChatService1.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\WcfChatService1\bin\WcfChatService1.pdb
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\WcfChatService1\bin\EntityFramework.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\WcfChatService1\bin\EntityFramework.SqlServer.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\WcfChatService1\bin\EntityFramework.xml
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\WcfChatService1\bin\EntityFramework.SqlServer.xml
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\WcfChatService1\obj\Debug\WcfChatService1.csprojResolveAssemblyReference.cache
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\WcfChatService1\obj\Debug\WcfChatService1.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\WcfChatService1\obj\Debug\WcfChatService1.pdb

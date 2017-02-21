@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="Nov18thAWSAD.NextPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nov18thAWSAD"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <MediaElement x:Name="xnVideoPlayer" Source="Assets/Videos/MyVideo.mp4" AutoPlay="True" PosterSource="Assets/pixar-animation-studio-logo.jpg" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+    </Grid>
+    <Page.TopAppBar>
+        <AppBar Background="#5CBCE4">
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal">
+                <SearchBox Name="xnSearchBox" Width="200" Height="50" />
+                <AppBarButton Label="Account" Icon="Account">
+                    <AppBarButton.Flyout>
+                        <MenuFlyout>
+                            <MenuFlyoutItem Text="Logout" Click="OnClick_Logout" />
+                            <MenuFlyoutItem Text="Exit" Click="OnClick_Exit" />
+                        </MenuFlyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+    <Page.BottomAppBar>
+        <AppBar Background="#5CBCE4">
+            <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                <AppBarButton Label="Update Tile" Icon="GoToStart" HorizontalAlignment="Left" Click="OnClick_UpdateTile" />
+                <AppBarButton Label="Update Badge" Icon="SolidStar" HorizontalAlignment="Left" Click="OnClick_UpdateBadge" />
+                <AppBarButton Label="Open File" Icon="OpenFile" HorizontalAlignment="Left" Click="OnClick_OpenFileVideo" />
+                <AppBarButton Label="Play" Icon="Play" HorizontalAlignment="Right" Click="OnClick_Play" />
+                <AppBarButton Label="Pause" Icon="Pause" HorizontalAlignment="Right" Click="OnClick_Pause" />
+                <AppBarButton Label="Stop" Icon="Stop" HorizontalAlignment="Right" Click="OnClick_Stop" />
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>

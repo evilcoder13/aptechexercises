@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f9d33099-9b02-48e8-82a7-886f3c2a4a7b</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\bin\Debug\Dec14thAWSAD2.exe">
+      <PackagePath>Dec14thAWSAD2.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\bin\Debug\MovieSearchPage.xbf">
+      <PackagePath>MovieSearchPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\bin\Debug\Dec14thAWSAD2.xr.xml">
+      <PackagePath>Dec14thAWSAD2.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Dec14thAWSAD2\Dec14thAWSAD2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

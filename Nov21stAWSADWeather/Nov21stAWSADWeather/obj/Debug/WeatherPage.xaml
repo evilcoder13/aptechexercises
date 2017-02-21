@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="Nov21stAWSADWeather.WeatherPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nov21stAWSADWeather"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image HorizontalAlignment="Left" Height="307" Margin="86,90,0,0" VerticalAlignment="Top" Width="307" Source="{Binding icon}"/>
+        <ComboBox x:ConnectionId='1' x:Uid="uidCity" Name="xnCity" Header="City" HorizontalAlignment="Left" Margin="545,90,0,0" VerticalAlignment="Top" Height="130" Width="685" FontSize="40" SelectedValuePath="Content"                                             >
+            <ComboBoxItem Content="Hanoi" />
+            <ComboBoxItem Content="Danang" />
+        </ComboBox>
+        <TextBox x:Uid="uidWindSpeed" Header="Wind Speed" IsEnabled="False" HorizontalAlignment="Left" Margin="545,267,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="130" Width="685" FontSize="40" Text="{Binding wind_kph}"/>
+        <TextBox x:Uid="uidWindDirection" Header="Wind Direction" IsEnabled="False" HorizontalAlignment="Left" Margin="545,444,0,0" TextWrapping="Wrap" Text="{Binding wind_dir}" VerticalAlignment="Top" Height="130" Width="685" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="86,438,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="307" Height="305" FontSize="40">
+            <Run Text="{Binding text}" />
+            <Run Text=" - Temp: " />
+            <Run Text="{Binding temp_c}"/>
+            <Run Text=" - Feel: " />
+            <Run Text="{Binding feelslike_c}"/>
+        </TextBlock>
+        <TextBox x:Uid="uidHumidity" Header="Humidity" IsEnabled="False" HorizontalAlignment="Left" Margin="545,628,0,0" TextWrapping="Wrap" Text="{Binding humidity}" VerticalAlignment="Top" Height="130" Width="685" FontSize="40"/>
+
+    </Grid>
+    <Page.BottomAppBar>
+        <AppBar>
+            <Grid>
+                <AppBarButton x:ConnectionId='2' Icon="Back" Label="Back"                      />
+                <Button x:ConnectionId='3' Content="Update Tile and Badge" HorizontalAlignment="Center"                        />
+                <AppBarButton x:ConnectionId='4' Icon="Cancel" Label="Exit"                    HorizontalAlignment="Right" />
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+

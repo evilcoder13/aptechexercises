@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="MediaPlayer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MediaPlayer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.BottomAppBar>
+        <AppBar Background="Blue">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <AppBarToggleButton Icon="Pause" Label="Pause" Click="PauseButton_Click" />
+                <AppBarButton Name="Stop" Icon="Stop" Label="Stop" Click="StopButton_Click" />
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+    <Page.TopAppBar>
+        <AppBar Background="Blue">
+            <StackPanel Orientation="Horizontal">
+                <AppBarButton Icon="OpenFile" Label="Open File" Click="OpenFile_Click" />
+                <AppBarButton Icon="OpenLocal" Label="Open Folder" Click="AppBarButton_Click_1" />
+                <AppBarButton Icon="Manage" Label="Options">
+                    <AppBarButton.Flyout>
+                        <MenuFlyout>
+                        <MenuFlyoutItem Text="Convert HD" Click="MenuFlyoutItem_Click"></MenuFlyoutItem>
+                        <MenuFlyoutItem Text="Convert FHD" Click="MenuFlyoutItem_Click_1"></MenuFlyoutItem>
+                        </MenuFlyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+                <AppBarButton Label="Exit" Click="AppBarButton_Click" Icon="Clear" />
+                <ComboBox Name="cbMovieList" ItemsSource="{Binding}" Width="300" SelectionChanged="cbMovieList_SelectionChanged">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock>
+                                <Run Text="{Binding Name}" />
+                                <Run Text=" (" />
+                                <Run Text="{Binding ContentType}" />
+                                <Run Text=")" />
+                            </TextBlock>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <MediaElement Name="media1" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1366"/>
+
+    </Grid>
+</Page>

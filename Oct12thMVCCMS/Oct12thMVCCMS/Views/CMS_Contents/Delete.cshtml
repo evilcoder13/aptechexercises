@@ -1,0 +1,152 @@
+﻿@model Oct12thMVCCMS.Models.CMS_Contents
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>CMS_Contents</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Headline)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Headline)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Teaser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Teaser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Body)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Body)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Avatar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Avatar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_CreateDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_CreateDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_ModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_UserID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_UserID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_ModifiedUserID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_ModifiedUserID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Comment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Comment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_IsFocus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_IsFocus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_IsHot)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_IsHot)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_LgID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_LgID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Viewed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Viewed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_FocusID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_FocusID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CMS_Zones.Zone_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CMS_Zones.Zone_Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

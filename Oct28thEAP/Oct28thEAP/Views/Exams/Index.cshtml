@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Oct28thEAP.Models.Exam>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $.getJSON("http://localhost:38302/api/ExamAPI", function (data) {
+        $.each(data, function (key, value) {
+            $(".table").append("<tr class='ajax'><td>" + value["Cls"].Name + "</td><td>" + value["Std"].Name + "</td><td>" + value["Mark"] + "</td></tr>");
+        });
+    });
+
+    $(document).ready(function () {
+        $("input").click(function () {
+            var id = "";
+            if ($(this).val() == "Fail")
+                id = false;
+            else if ($(this).val() == "Pass")
+                id = true;
+            else id = "";
+            $.getJSON("http://localhost:38302/api/ExamAPI/" + id, function (data) {
+                $(".ajax").remove();
+                $.each(data, function (key, value) {
+                    $(".table").append("<tr class='ajax'><td>" + value["Cls"].Name + "</td><td>" + value["Std"].Name + "</td><td>" + value["Mark"] + "</td></tr>");
+                });
+            });
+        });
+    });
+</script>
+<input type="button" value="Fail" /><input type="button" value="Pass" /><input type="button" value="All" />
+<table class="table">
+    <tr>
+        <th>
+            Cls.Name
+        </th>
+        <th>
+            Std.Name
+        </th>
+        <th>
+            Mark
+        </th>
+    </tr>
+</table>

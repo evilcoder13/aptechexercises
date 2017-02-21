@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>546cf957-6a1a-442c-8d6f-fe4e433389e7</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\Nov28thAWSAD1SimpleNote.exe">
+      <PackagePath>Nov28thAWSAD1SimpleNote.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\NoteDetailPage.xbf">
+      <PackagePath>NoteDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\NotePage.xbf">
+      <PackagePath>NotePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\Nov28thAWSAD1SimpleNote.xr.xml">
+      <PackagePath>Nov28thAWSAD1SimpleNote.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

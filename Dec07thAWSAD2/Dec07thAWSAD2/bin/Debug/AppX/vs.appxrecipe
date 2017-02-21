@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>Thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>37cce13c-dacc-4032-82d9-e072165dad64</PackageIdentityName>
+    <IntermediateOutputPath>c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>DEF2EA2F793443FB3B56D0B44285F658FCACA7C838F04C8382F3E1AB4E92BE7E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>37cce13c-dacc-4032-82d9-e072165dad64_1.0.0.0_neutral__ezk5derv02ppg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>37cce13c-dacc-4032-82d9-e072165dad64_ezk5derv02ppg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>37cce13c-dacc-4032-82d9-e072165dad64</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Thang.dm</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-07T01:56:22.823</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\bin\Debug\Dec07thAWSAD2.exe">
+      <PackagePath>Dec07thAWSAD2.exe</PackagePath>
+      <Modified>2016-12-07T02:08:45.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-12-07T01:56:22.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\bin\Debug\LoginSuccess.xbf">
+      <PackagePath>LoginSuccess.xbf</PackagePath>
+      <Modified>2016-12-07T02:07:20.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-12-07T02:07:20.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\bin\Debug\Dec07thAWSAD2.xr.xml">
+      <PackagePath>Dec07thAWSAD2.xr.xml</PackagePath>
+      <Modified>2016-12-07T02:07:20.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Dec07thAWSAD2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-12-07T01:56:22.625</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

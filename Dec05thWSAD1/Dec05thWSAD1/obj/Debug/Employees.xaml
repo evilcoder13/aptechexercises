@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="Dec05thWSAD1.Employees"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Dec05thWSAD1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListBox x:ConnectionId='1' Name="lstEmployee" ItemsSource="{Binding}"                                   >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}" Width="500" />
+                        <TextBlock Text="{Binding Department}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal">
+                <AppBarButton x:ConnectionId='2' Label="Back" Icon="Back"                      />
+                <AppBarSeparator Foreground="White" />
+                <SearchBox x:ConnectionId='3' Name="sbSearchName" PlaceholderText="Search Employee Name" Height="70" Width="400" FontSize="40"                                />
+                <ComboBox Name="cbSearchDepartment" PlaceholderText="Search Department" Height="70" Width="400" FontSize="40" ItemsSource="{Binding}">
+                </ComboBox>
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+</Page>
+

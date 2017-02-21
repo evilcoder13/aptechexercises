@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CMSDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CMS_Contents">
+          <Key>
+            <PropertyRef Name="Content_ID" />
+          </Key>
+          <Property Name="Content_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Content_Headline" Type="nvarchar" MaxLength="200" />
+          <Property Name="Content_Teaser" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Content_Body" Type="ntext" />
+          <Property Name="Content_Avatar" Type="varchar" MaxLength="200" />
+          <Property Name="Content_CreateDate" Type="datetime" />
+          <Property Name="Content_ModifiedDate" Type="datetime" />
+          <Property Name="Content_Status" Type="int" />
+          <Property Name="Content_ZoneID" Type="int" Nullable="false" />
+          <Property Name="Content_UserID" Type="varchar" MaxLength="50" />
+          <Property Name="Content_ModifiedUserID" Type="int" />
+          <Property Name="Content_Comment" Type="nvarchar" MaxLength="500" />
+          <Property Name="Content_IsFocus" Type="bit" />
+          <Property Name="Content_IsHot" Type="bit" />
+          <Property Name="Content_LgID" Type="int" />
+          <Property Name="Content_Viewed" Type="int" />
+          <Property Name="Content_FocusID" Type="int" />
+        </EntityType>
+        <EntityType Name="CMS_Zones">
+          <Key>
+            <PropertyRef Name="Zone_ID" />
+          </Key>
+          <Property Name="Zone_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Zone_Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="Zone_ParentID" Type="int" />
+          <Property Name="Zone_Priority" Type="int" />
+          <Property Name="Zone_Type" Type="int" />
+          <Property Name="Zone_Alias" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <Association Name="FK__CMS_Conte__Conte__25869641">
+          <End Role="CMS_Zones" Type="Self.CMS_Zones" Multiplicity="1" />
+          <End Role="CMS_Contents" Type="Self.CMS_Contents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CMS_Zones">
+              <PropertyRef Name="Zone_ID" />
+            </Principal>
+            <Dependent Role="CMS_Contents">
+              <PropertyRef Name="Content_ZoneID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CMSDBModelStoreContainer">
+          <EntitySet Name="CMS_Contents" EntityType="Self.CMS_Contents" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CMS_Zones" EntityType="Self.CMS_Zones" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__CMS_Conte__Conte__25869641" Association="Self.FK__CMS_Conte__Conte__25869641">
+            <End Role="CMS_Zones" EntitySet="CMS_Zones" />
+            <End Role="CMS_Contents" EntitySet="CMS_Contents" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CMSDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CMS_Contents">
+          <Key>
+            <PropertyRef Name="Content_ID" />
+          </Key>
+          <Property Name="Content_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Content_Headline" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Content_Teaser" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Content_Body" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Content_Avatar" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Content_CreateDate" Type="DateTime" Precision="3" />
+          <Property Name="Content_ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="Content_Status" Type="Int32" />
+          <Property Name="Content_ZoneID" Type="Int32" Nullable="false" />
+          <Property Name="Content_UserID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Content_ModifiedUserID" Type="Int32" />
+          <Property Name="Content_Comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Content_IsFocus" Type="Boolean" />
+          <Property Name="Content_IsHot" Type="Boolean" />
+          <Property Name="Content_LgID" Type="Int32" />
+          <Property Name="Content_Viewed" Type="Int32" />
+          <Property Name="Content_FocusID" Type="Int32" />
+          <NavigationProperty Name="CMS_Zones" Relationship="Self.FK__CMS_Conte__Conte__25869641" FromRole="CMS_Contents" ToRole="CMS_Zones" />
+        </EntityType>
+        <EntityType Name="CMS_Zones">
+          <Key>
+            <PropertyRef Name="Zone_ID" />
+          </Key>
+          <Property Name="Zone_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Zone_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Zone_ParentID" Type="Int32" />
+          <Property Name="Zone_Priority" Type="Int32" />
+          <Property Name="Zone_Type" Type="Int32" />
+          <Property Name="Zone_Alias" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CMS_Contents" Relationship="Self.FK__CMS_Conte__Conte__25869641" FromRole="CMS_Zones" ToRole="CMS_Contents" />
+        </EntityType>
+        <Association Name="FK__CMS_Conte__Conte__25869641">
+          <End Role="CMS_Zones" Type="Self.CMS_Zones" Multiplicity="1" />
+          <End Role="CMS_Contents" Type="Self.CMS_Contents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CMS_Zones">
+              <PropertyRef Name="Zone_ID" />
+            </Principal>
+            <Dependent Role="CMS_Contents">
+              <PropertyRef Name="Content_ZoneID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CMSDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CMS_Contents" EntityType="Self.CMS_Contents" />
+          <EntitySet Name="CMS_Zones" EntityType="Self.CMS_Zones" />
+          <AssociationSet Name="FK__CMS_Conte__Conte__25869641" Association="Self.FK__CMS_Conte__Conte__25869641">
+            <End Role="CMS_Zones" EntitySet="CMS_Zones" />
+            <End Role="CMS_Contents" EntitySet="CMS_Contents" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CMSDBModelStoreContainer" CdmEntityContainer="CMSDBEntities">
+          <EntitySetMapping Name="CMS_Contents">
+            <EntityTypeMapping TypeName="CMSDBModel.CMS_Contents">
+              <MappingFragment StoreEntitySet="CMS_Contents">
+                <ScalarProperty Name="Content_ID" ColumnName="Content_ID" />
+                <ScalarProperty Name="Content_Headline" ColumnName="Content_Headline" />
+                <ScalarProperty Name="Content_Teaser" ColumnName="Content_Teaser" />
+                <ScalarProperty Name="Content_Body" ColumnName="Content_Body" />
+                <ScalarProperty Name="Content_Avatar" ColumnName="Content_Avatar" />
+                <ScalarProperty Name="Content_CreateDate" ColumnName="Content_CreateDate" />
+                <ScalarProperty Name="Content_ModifiedDate" ColumnName="Content_ModifiedDate" />
+                <ScalarProperty Name="Content_Status" ColumnName="Content_Status" />
+                <ScalarProperty Name="Content_ZoneID" ColumnName="Content_ZoneID" />
+                <ScalarProperty Name="Content_UserID" ColumnName="Content_UserID" />
+                <ScalarProperty Name="Content_ModifiedUserID" ColumnName="Content_ModifiedUserID" />
+                <ScalarProperty Name="Content_Comment" ColumnName="Content_Comment" />
+                <ScalarProperty Name="Content_IsFocus" ColumnName="Content_IsFocus" />
+                <ScalarProperty Name="Content_IsHot" ColumnName="Content_IsHot" />
+                <ScalarProperty Name="Content_LgID" ColumnName="Content_LgID" />
+                <ScalarProperty Name="Content_Viewed" ColumnName="Content_Viewed" />
+                <ScalarProperty Name="Content_FocusID" ColumnName="Content_FocusID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CMS_Zones">
+            <EntityTypeMapping TypeName="CMSDBModel.CMS_Zones">
+              <MappingFragment StoreEntitySet="CMS_Zones">
+                <ScalarProperty Name="Zone_ID" ColumnName="Zone_ID" />
+                <ScalarProperty Name="Zone_Name" ColumnName="Zone_Name" />
+                <ScalarProperty Name="Zone_ParentID" ColumnName="Zone_ParentID" />
+                <ScalarProperty Name="Zone_Priority" ColumnName="Zone_Priority" />
+                <ScalarProperty Name="Zone_Type" ColumnName="Zone_Type" />
+                <ScalarProperty Name="Zone_Alias" ColumnName="Zone_Alias" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

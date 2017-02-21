@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="qps-ploc" original="NOV21STAWSADWEATHER/TRANSLATIONS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="NOV21STAWSADWEATHER/TRANSLATIONS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="uidLanguage.Header" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="new">Language</target>
+        </trans-unit>
+        <trans-unit id="uidLanguage.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Choose a language!</source>
+          <target state="new">Choose a language!</target>
+        </trans-unit>
+        <trans-unit id="uidLogin.Content" translate="yes" xml:space="preserve">
+          <source>Login</source>
+          <target state="new">Login</target>
+        </trans-unit>
+        <trans-unit id="uidPassword.Header" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="new">Password</target>
+        </trans-unit>
+        <trans-unit id="uidPassword.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Input Password!</source>
+          <target state="new">Input Password!</target>
+        </trans-unit>
+        <trans-unit id="uidRegister.Content" translate="yes" xml:space="preserve">
+          <source>Register</source>
+          <target state="new">Register</target>
+        </trans-unit>
+        <trans-unit id="uidUsername.Header" translate="yes" xml:space="preserve">
+          <source>User Name</source>
+          <target state="new">User Name</target>
+        </trans-unit>
+        <trans-unit id="uidUsername.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Input User Name!</source>
+          <target state="new">Input User Name!</target>
+        </trans-unit>
+        <trans-unit id="uidCity.Header" translate="yes" xml:space="preserve">
+          <source>City</source>
+          <target state="new">City</target>
+        </trans-unit>
+        <trans-unit id="uidCity.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Choose a city!</source>
+          <target state="new">Choose a city!</target>
+        </trans-unit>
+        <trans-unit id="uidWindSpeed.Header" translate="yes" xml:space="preserve">
+          <source>Wind Speed</source>
+          <target state="new">Wind Speed</target>
+        </trans-unit>
+        <trans-unit id="uidWindDirection.Header" translate="yes" xml:space="preserve">
+          <source>Wind Direction</source>
+          <target state="new">Wind Direction</target>
+        </trans-unit>
+        <trans-unit id="uidHumidity.Header" translate="yes" xml:space="preserve">
+          <source>Humidity</source>
+          <target state="new">Humidity</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

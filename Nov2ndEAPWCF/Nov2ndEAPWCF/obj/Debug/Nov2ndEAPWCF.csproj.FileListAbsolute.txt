@@ -1,0 +1,10 @@
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov2ndEAPWCF\Nov2ndEAPWCF\bin\Nov2ndEAPWCF.dll.config
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov2ndEAPWCF\Nov2ndEAPWCF\bin\Nov2ndEAPWCF.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov2ndEAPWCF\Nov2ndEAPWCF\bin\Nov2ndEAPWCF.pdb
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov2ndEAPWCF\Nov2ndEAPWCF\bin\EntityFramework.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov2ndEAPWCF\Nov2ndEAPWCF\bin\EntityFramework.SqlServer.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov2ndEAPWCF\Nov2ndEAPWCF\bin\EntityFramework.xml
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov2ndEAPWCF\Nov2ndEAPWCF\bin\EntityFramework.SqlServer.xml
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov2ndEAPWCF\Nov2ndEAPWCF\obj\Debug\Nov2ndEAPWCF.csprojResolveAssemblyReference.cache
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov2ndEAPWCF\Nov2ndEAPWCF\obj\Debug\Nov2ndEAPWCF.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov2ndEAPWCF\Nov2ndEAPWCF\obj\Debug\Nov2ndEAPWCF.pdb

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Oct5thMVCProjectManagement.Models.Management>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<p style="color:red; font-size:30px;" class="thongbao">@TempData["thongbao"]</p>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".thongbao").fadeOut(7000);
+    });
+</script>
+@using(Html.BeginForm())
+{
+    <div>Search: @Html.DropDownList("searchProjectName", null, htmlAttributes: new { @class = "form-control" }) @Html.TextBox("searchCustomerName") @Html.TextBox("searchEmployeeName") <input type="submit" value="Search" /> </div>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Cust.CustName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Emp.EmpName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prj.PrjName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Note)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cust.CustName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Emp.EmpName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prj.PrjName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Note)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EmpId, id2=item.CustId, id3=item.PrjId /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { id = item.EmpId, id2 = item.CustId, id3 = item.PrjId/* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.EmpId, id2 = item.CustId, id3 = item.PrjId/* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>546cf957-6a1a-442c-8d6f-fe4e433389e7</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>8B3DD6A399FA3E7BC6A877B3E0290EF6CFB844EE8B2BF12DB26944924D26FD14</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>546cf957-6a1a-442c-8d6f-fe4e433389e7_1.0.0.0_neutral__a3gbs555v3n1g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>546cf957-6a1a-442c-8d6f-fe4e433389e7_a3gbs555v3n1g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>546cf957-6a1a-442c-8d6f-fe4e433389e7</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=thang.dm</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-28T02:52:51.299</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\Nov28thAWSAD1SimpleNote.exe">
+      <PackagePath>Nov28thAWSAD1SimpleNote.exe</PackagePath>
+      <Modified>2016-11-28T03:12:29.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-11-28T01:04:09.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-11-28T01:45:59.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-11-28T03:01:02.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\NoteDetailPage.xbf">
+      <PackagePath>NoteDetailPage.xbf</PackagePath>
+      <Modified>2016-11-28T03:01:02.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\NotePage.xbf">
+      <PackagePath>NotePage.xbf</PackagePath>
+      <Modified>2016-11-28T03:01:02.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\Nov28thAWSAD1SimpleNote.xr.xml">
+      <PackagePath>Nov28thAWSAD1SimpleNote.xr.xml</PackagePath>
+      <Modified>2016-11-28T03:01:02.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov28thAWSAD1SimpleNote\Nov28thAWSAD1SimpleNote\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-11-28T02:52:50.309</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

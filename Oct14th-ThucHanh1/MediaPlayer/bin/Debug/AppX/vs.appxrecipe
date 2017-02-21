@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>29b6e052-d4a5-4421-bd5a-c723a3673487</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>5A50F712B82B2B44525D929826D84884C56AEB0C495D859071C0BADE7DE18AE4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>29b6e052-d4a5-4421-bd5a-c723a3673487_1.0.0.0_neutral__a3gbs555v3n1g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>29b6e052-d4a5-4421-bd5a-c723a3673487_a3gbs555v3n1g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>29b6e052-d4a5-4421-bd5a-c723a3673487</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=thang.dm</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-14T01:57:49.805</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\bin\Debug\MediaPlayer.exe">
+      <PackagePath>MediaPlayer.exe</PackagePath>
+      <Modified>2016-10-14T03:47:19.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-10-14T01:57:49.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-10-14T03:43:32.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\bin\Debug\MediaPlayer.xr.xml">
+      <PackagePath>MediaPlayer.xr.xml</PackagePath>
+      <Modified>2016-10-14T03:43:32.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\MediaPlayer\MediaPlayer\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-10-14T01:57:49.644</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

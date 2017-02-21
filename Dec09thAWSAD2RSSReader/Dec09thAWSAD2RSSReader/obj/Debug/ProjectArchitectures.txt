@@ -1,0 +1,2 @@
+C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader.csproj;neutral
+C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Utilities\Utilities.csproj;neutral

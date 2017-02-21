@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Translations\en-US\Resources.resw</FileName>
+    <Checksum>1151151378751192161319010711181254913369</Checksum>
+    <ModifiedTime>2016-11-21T09:52:22.6841067</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Nov21stAWSADWeather.qps-ploc.xlf</FileName>
+    <Checksum>20568114165169571215721614616311710122896170</Checksum>
+    <ModifiedTime>2016-11-21T09:39:32.3446238+07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Translations\qps-ploc\Resources.resw</FileName>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2016-11-21T09:39:32.3456239+07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Nov21stAWSADWeather.vi-VN.xlf</FileName>
+    <Checksum>24543532502017720473131236238301523586121</Checksum>
+    <ModifiedTime>2016-11-21T09:52:48.6161287+07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Translations\vi-VN\Resources.resw</FileName>
+    <Checksum>126132185251185193243121432149911518810514172</Checksum>
+    <ModifiedTime>2016-11-21T09:53:05.1537807+07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

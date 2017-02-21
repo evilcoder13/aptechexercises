@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="Oct19thWSADProductManagement.DetailPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Oct19thWSADProductManagement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Product ID : " Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="30" />
+        <TextBlock Text="Product Name : " Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="30" />
+        <TextBlock Text="Product Price : " Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="30" />
+        <TextBlock Text="Product Image : " Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="30" />
+        <TextBlock Text="Product Category : " Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="30" />
+        <TextBox Name="txtID" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Width="650" FontSize="30" Height="60" />
+        <TextBox Name="txtName" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Width="650" FontSize="30" Height="60" />
+        <TextBox Name="txtPrice" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Width="650" FontSize="30" Height="60" />
+        <TextBox Name="txtCategory" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" Width="300" FontSize="30" Height="60" />
+        <ComboBox Name="cbCategory" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" Width="300" FontSize="30" Height="60" Margin="350 0 0 0" />
+        <Image Source="ms-appx:///Assets/empty-img.png" Name="imgProductImage" Height="250" Width="250" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" />
+        <AppBarButton x:ConnectionId='1' Icon="BrowsePhotos" Label="Browse" Grid.Row="4" Grid.Column="1" Margin="270 0 0 0" VerticalAlignment="Center"                            />
+        <AppBarButton x:ConnectionId='2' Icon="Save" Label="Save" Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"                    />
+    </Grid>
+    <Page.TopAppBar>
+        <AppBar>
+            <AppBarButton x:ConnectionId='3' Icon="Back" Label="Back"                      />
+        </AppBar>
+    </Page.TopAppBar>
+</Page>
+

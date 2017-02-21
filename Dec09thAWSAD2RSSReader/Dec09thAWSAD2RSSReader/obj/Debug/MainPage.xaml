@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="Dec09thAWSAD2RSSReader.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Dec09thAWSAD2RSSReader"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListBox x:ConnectionId='1' Name="lstNews" ItemsSource="{Binding}"                                    >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock>
+                            <Run Text="{Binding title}" />
+                            <Run Text=" (" />
+                            <Run Text="{Binding pubDate}" />
+                            <Run Text=")" />
+                        </TextBlock>
+                        <TextBlock Text="{Binding description1}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="txtUrl" PlaceholderText="Input links" Width="400" Height="40" FontSize="20" />
+                <Button x:ConnectionId='2' Content="Add"                       />
+                <ComboBox Name="cbLinks" Width="400" Height="40" ItemsSource="{Binding}"/>
+                <Button x:ConnectionId='3' Content="Delete"                          />
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+    <Page.BottomAppBar>
+        <AppBar>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+                <AppBarButton x:ConnectionId='4' Icon="Refresh" Label="Refresh Data"                       />
+                <AppBarButton x:ConnectionId='5' Icon="Calendar" Label="Register"                        />
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+

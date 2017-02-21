@@ -1,0 +1,10 @@
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\Nov04thEAPChat\bin\Nov04thEAPChat.dll.config
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\Nov04thEAPChat\bin\Nov04thEAPChat.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\Nov04thEAPChat\bin\Nov04thEAPChat.pdb
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\Nov04thEAPChat\bin\EntityFramework.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\Nov04thEAPChat\bin\EntityFramework.SqlServer.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\Nov04thEAPChat\bin\EntityFramework.xml
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\Nov04thEAPChat\bin\EntityFramework.SqlServer.xml
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\Nov04thEAPChat\obj\Debug\Nov04thEAPChat.dll
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\Nov04thEAPChat\obj\Debug\Nov04thEAPChat.pdb
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\Nov04thEAPChat\obj\Debug\Nov04thEAPChat.csprojResolveAssemblyReference.cache

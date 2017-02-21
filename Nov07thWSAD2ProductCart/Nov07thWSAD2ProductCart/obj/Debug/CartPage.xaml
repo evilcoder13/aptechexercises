@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="Nov07thWSAD2ProductCart.CartPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nov07thWSAD2ProductCart"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="150" />
+        </Grid.RowDefinitions>
+        <ListBox Name="lstCart" ItemsSource="{Binding}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>
+                            <Run Text="{Binding Name}"/>
+                            <Run Text="("/>
+                            <Run Text="{Binding Quantity}"/>
+                            <Run Text=" x "/>
+                            <Run Text="{Binding Price}"/>
+                            <Run Text=")"/>
+                        </TextBlock>
+                        <CheckBox x:ConnectionId='1' IsChecked="{Binding Buy, Mode=TwoWay}"                                                 />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock Name="xnTotal" Grid.Row="1" FontSize="80" Text="Total: 0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+    </Grid>
+    <Page.TopAppBar>
+        <AppBar>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal" Grid.Column="0">
+                    <AppBarButton x:ConnectionId='3' Icon="Back" Label="Go Back"                      />
+                    <AppBarButton x:ConnectionId='4' Icon="Home" Label="Go Home"                      />
+                </StackPanel>
+                    <AppBarButton x:ConnectionId='2' Icon="Accept" Label="Pay"                   Grid.Column="1" HorizontalAlignment="Right" />
+            </Grid>
+        </AppBar>
+    </Page.TopAppBar>
+</Page>
+

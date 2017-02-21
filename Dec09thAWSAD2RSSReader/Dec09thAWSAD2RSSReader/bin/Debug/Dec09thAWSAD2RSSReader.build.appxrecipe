@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>22548c83-4572-47a6-bcdd-51164b0e700b</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\bin\Debug\Dec09thAWSAD2RSSReader.exe">
+      <PackagePath>Dec09thAWSAD2RSSReader.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Utilities\bin\Debug\Utilities.winmd">
+      <PackagePath>Utilities.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\Assets\badge24x24.png">
+      <PackagePath>Assets\badge24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\Assets\Icon-310x150.jpg">
+      <PackagePath>Assets\Icon-310x150.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\bin\Debug\Dec09thAWSAD2RSSReader.xr.xml">
+      <PackagePath>Dec09thAWSAD2RSSReader.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\documents\visual studio 2013\Projects\Dec09thAWSAD2RSSReader\Dec09thAWSAD2RSSReader\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

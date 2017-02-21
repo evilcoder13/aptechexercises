@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SongManagementDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GenreName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Songs" Relationship="Self.FK_Genre_Songs" FromRole="Genre" ToRole="Songs" />
+  </EntityType>
+  <EntityType Name="Song">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="ArtistName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="GenreID" Type="Int32" />
+    <NavigationProperty Name="Genre" Relationship="Self.FK_Genre_Songs" FromRole="Songs" ToRole="Genre" />
+  </EntityType>
+  <Association Name="FK_Genre_Songs">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Songs" Type="Self.Song" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Songs">
+        <PropertyRef Name="GenreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SongManagementDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Genres" EntityType="Self.Genre" />
+    <EntitySet Name="Songs" EntityType="Self.Song" />
+    <AssociationSet Name="FK_Genre_Songs" Association="Self.FK_Genre_Songs">
+      <End Role="Genre" EntitySet="Genres" />
+      <End Role="Songs" EntitySet="Songs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

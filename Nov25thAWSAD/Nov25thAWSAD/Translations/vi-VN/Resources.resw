@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnLogin" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="lblChangeLanguage" xml:space="preserve">
+    <value>Thay đổi ngôn ngữ:</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Mật khẩu:</value>
+  </data>
+  <data name="lblUsername" xml:space="preserve">
+    <value>Tên đăng nhập:</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Đăng nhập không thành công!</value>
+  </data>
+  <data name="btnRegister" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="DataLoaded" xml:space="preserve">
+    <value>Dữ liệu được nạp thành công!</value>
+  </data>
+  <data name="DataSaved" xml:space="preserve">
+    <value>Dữ liệu được lưu thành công!</value>
+  </data>
+  <data name="BlankUsernamePassword" xml:space="preserve">
+    <value>Bạn phải nhập tên người dùng và mật khẩu để đăng nhập!</value>
+  </data>
+</root>

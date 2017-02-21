@@ -1,0 +1,8 @@
+﻿@model IEnumerable<WebChatWCF.ServiceReference1.Message>
+
+@{
+    Layout = null;
+}
+    @foreach (var item in Model) {
+        <div><span style="font-weight:bold;">@Html.DisplayFor(modelItem => item.SenderId) (@Html.DisplayFor(modelItem => item.SendTime))</span>: <span>@Html.DisplayFor(modelItem => item.Content)</span></div>
+    }

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Translations\en-US\Resources.resw</FileName>
+    <Checksum>18018213424236243222150678014021663148204220</Checksum>
+    <ModifiedTime>2016-11-18T09:27:29.8816194</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Nov18thAWSAD.ja-JP.xlf</FileName>
+    <Checksum>2451261321838131872361341132071022138523572</Checksum>
+    <ModifiedTime>2016-11-18T09:38:18.6823191+07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Translations\ja-JP\Resources.resw</FileName>
+    <Checksum>109149157871762031832014813023122415225512047</Checksum>
+    <ModifiedTime>2016-11-18T09:38:35.0904022+07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Nov18thAWSAD.qps-ploc.xlf</FileName>
+    <Checksum>19917210311139247743223467191609711100117</Checksum>
+    <ModifiedTime>2016-11-18T09:29:18.2981742+07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Translations\qps-ploc\Resources.resw</FileName>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2016-11-18T09:29:18.7197023+07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Nov18thAWSAD.vi-VN.xlf</FileName>
+    <Checksum>1721042377716313871105175232155255132107</Checksum>
+    <ModifiedTime>2016-11-18T09:37:19.638293+07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Translations\vi-VN\Resources.resw</FileName>
+    <Checksum>139142161571193112094830271501326425328</Checksum>
+    <ModifiedTime>2016-11-18T09:38:35.1094583+07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

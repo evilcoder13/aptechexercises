@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Nov30thAWSADGooglePlace.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nov30thAWSADGooglePlace"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <local:LoginControl Name="xnLogin" Margin="737,370,235,40" />
+        <Image Name="xnLanguageImage" HorizontalAlignment="Left" Height="256" Margin="76,48,0,0" VerticalAlignment="Top" Width="256"/>
+        <TextBlock Name="lblChangeLanguage" HorizontalAlignment="Left" Margin="737,88,0,0" TextWrapping="Wrap" Text="Change Language" FontSize="20" VerticalAlignment="Top"/>
+        <ComboBox Name="xnLanguage" ItemsSource="{Binding}" HorizontalAlignment="Left" Margin="928,84,0,0" VerticalAlignment="Top" Width="203" SelectionChanged="xnLanguage_SelectionChanged"/>
+    </Grid>
+</Page>

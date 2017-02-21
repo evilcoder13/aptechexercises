@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ja-JP" original="NOV18THAWSAD/TRANSLATIONS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="NOV18THAWSAD/TRANSLATIONS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="msg_wrong_password" translate="yes" xml:space="preserve">
+          <source>Wrong password !</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">パスワードが間違っている!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cảnh báo mật khẩu bị sai !</note>
+        </trans-unit>
+        <trans-unit id="msg_wrong_username" translate="yes" xml:space="preserve">
+          <source>Wrong username !</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">誤ったユーザー名!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Cảnh báo tên đăng nhập bị sai</note>
+        </trans-unit>
+        <trans-unit id="uidComboBox.Header" translate="yes" xml:space="preserve">
+          <source>Select Language !</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">言語の選択！</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Header của combobox</note>
+        </trans-unit>
+        <trans-unit id="uidImage.Source" translate="yes" xml:space="preserve">
+          <source>Assets/flag-256x256-us.png</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Assets/flag-256x256-jp.png</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Đường dẫn đến ảnh quốc kỳ</note>
+        </trans-unit>
+        <trans-unit id="uidLogin.Label" translate="yes" xml:space="preserve">
+          <source>Login</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ログイン</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Nút đăng nhập</note>
+        </trans-unit>
+        <trans-unit id="uidMsg.Text" translate="yes" xml:space="preserve">
+          <source>Please login !</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ログインしてください!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Lời nhắc yêu cầu đăng nhập !</note>
+        </trans-unit>
+        <trans-unit id="uidPassword.Header" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">パスワード</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Mật khẩu</note>
+        </trans-unit>
+        <trans-unit id="uidUsername.Header" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ユーザー名</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tên đăng nhập</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

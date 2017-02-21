@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="Oct19thWSADProductManagement.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Oct19thWSADProductManagement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListBox x:ConnectionId='1' Name="lstProduct" ItemsSource="{Binding}" FontSize="50"                                       >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <Run Text="{Binding Id}" />
+                        <Run Text="-" />
+                        <Run Text="{Binding Name}" />
+                        <Run Text=" (" />
+                        <Run Text="{Binding Price}" />
+                        <Run Text=")" />
+                    </TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Search: " FontSize="40" VerticalAlignment="Center"/>
+                <SearchBox x:ConnectionId='2' Name="sbSearchName" Width="200"                                        />
+                <ComboBox x:ConnectionId='3' Name="cbSearchCategory" Width="200" ItemsSource="{Binding}"                                      >
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" />
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+    <Page.BottomAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <AppBarButton x:ConnectionId='4' Icon="Add" Label="Add New"                       />
+                <AppBarButton x:ConnectionId='5' Icon="View" Label="Browse"                          />
+                <AppBarButton x:ConnectionId='6' Icon="Cancel" Label="Exit"                    />
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+

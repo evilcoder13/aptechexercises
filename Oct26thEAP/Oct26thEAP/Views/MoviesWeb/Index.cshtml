@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.getJSON("http://localhost:6768/api/Movies", function (data) {
+            $.each(data, function (key, value) {
+                $(".table").append("<tr class='ajaxdata'><td>" + value["Title"] + "</td><td>" + value["ReleaseDate"] + "</td><td>" + value["RunningTime"] + "</td><td>" + value["BoxOffice"] + "</td></tr>");
+            });
+        });
+
+        $("#btnReset").click(function () {
+            $.getJSON("http://localhost:6768/api/Movies", function (data) {
+                $(".ajaxdata").remove();
+                $.each(data, function (key, value) {
+                    $(".table").append("<tr class='ajaxdata'><td>" + value["Title"] + "</td><td>" + value["ReleaseDate"] + "</td><td>" + value["RunningTime"] + "</td><td>" + value["BoxOffice"] + "</td></tr>");
+                });
+            });
+        });
+        $("#btnSearch").click(function () {
+            $.getJSON("http://localhost:6768/api/Movies/" + $("#txtSearchByID").val(), function (data) {
+                $(".ajaxdata").remove();
+                $.each(data, function (key, value) {
+                    $(".table").append("<tr class='ajaxdata'><td>" + value["Title"] + "</td><td>" + value["ReleaseDate"] + "</td><td>" + value["RunningTime"] + "</td><td>" + value["BoxOffice"] + "</td></tr>");
+                });
+            });
+        });
+        //$("#txtSearchByID").keypress(function () {
+        //    $.getJSON("http://localhost:6768/api/Movies/" + $("#txtSearchByID").val(), function (data) {
+        //        $(".ajaxdata").remove();
+        //        $.each(data, function (key, value) {
+        //            $(".table").append("<tr class='ajaxdata'><td>" + value["Title"] + "</td><td>" + value["ReleaseDate"] + "</td><td>" + value["RunningTime"] + "</td><td>" + value["BoxOffice"] + "</td></tr>");
+        //        });
+        //    });
+        //});
+    });
+    
+</script>
+<input type="text" id="txtSearchByID" /><input type="button" id="btnSearch" value="Search" /><input type="button" id="btnReset" value="Reset" />
+<table class="table">
+    <tr>
+        <th>
+            Title
+        </th>
+        <th>
+            ReleaseDate
+        </th>
+        <th>
+            RunningTime
+        </th>
+        <th>
+            BoxOffice
+        </th>
+    </tr>
+</table>

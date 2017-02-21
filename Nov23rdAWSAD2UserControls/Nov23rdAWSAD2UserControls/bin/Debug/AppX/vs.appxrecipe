@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f6fcb3b6-2154-4e2a-9d34-5b320c3138ab</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>1FC59B5CBFBF4E2D65B69A6A0D943C7F97F9F2911C67F683F4309089E3BF9A6C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f6fcb3b6-2154-4e2a-9d34-5b320c3138ab_1.0.0.0_neutral__a3gbs555v3n1g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f6fcb3b6-2154-4e2a-9d34-5b320c3138ab_a3gbs555v3n1g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f6fcb3b6-2154-4e2a-9d34-5b320c3138ab</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=thang.dm</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-23T04:03:51.005</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\bin\Debug\Nov23rdAWSAD2UserControls.exe">
+      <PackagePath>Nov23rdAWSAD2UserControls.exe</PackagePath>
+      <Modified>2016-11-23T04:07:59.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\flag-128x128-jp.png">
+      <PackagePath>Assets\flag-128x128-jp.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\flag-128x128-us.png">
+      <PackagePath>Assets\flag-128x128-us.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\flag-128x128-vn.png">
+      <PackagePath>Assets\flag-128x128-vn.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\flag-256x256-jp.png">
+      <PackagePath>Assets\flag-256x256-jp.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\flag-256x256-us.png">
+      <PackagePath>Assets\flag-256x256-us.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\flag-256x256-vn.png">
+      <PackagePath>Assets\flag-256x256-vn.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\flag-64x64-jp.png">
+      <PackagePath>Assets\flag-64x64-jp.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\flag-64x64-us.png">
+      <PackagePath>Assets\flag-64x64-us.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\flag-64x64-vn.png">
+      <PackagePath>Assets\flag-64x64-vn.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-150x150-facebook.png">
+      <PackagePath>Assets\logo-150x150-facebook.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-150x150-windows-8.png">
+      <PackagePath>Assets\logo-150x150-windows-8.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-150x150-windows-white.png">
+      <PackagePath>Assets\logo-150x150-windows-white.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-150x150-windows.png">
+      <PackagePath>Assets\logo-150x150-windows.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-150x150-youtube.png">
+      <PackagePath>Assets\logo-150x150-youtube.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-30x30-facebook.png">
+      <PackagePath>Assets\logo-30x30-facebook.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-30x30-sdk.png">
+      <PackagePath>Assets\logo-30x30-sdk.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-30x30-youtube.png">
+      <PackagePath>Assets\logo-30x30-youtube.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-310x150-facebook.png">
+      <PackagePath>Assets\logo-310x150-facebook.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-310x150-google.png">
+      <PackagePath>Assets\logo-310x150-google.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-310x150-Windows.png">
+      <PackagePath>Assets\logo-310x150-Windows.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\logo-310x310.png">
+      <PackagePath>Assets\logo-310x310.png</PackagePath>
+      <Modified>2016-11-23T01:22:17.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-23T01:22:19.600</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\profile-empty.png">
+      <PackagePath>Assets\profile-empty.png</PackagePath>
+      <Modified>2016-11-23T01:22:19.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-23T01:22:19.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2016-11-23T01:22:19.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Splashscreen\splashscreen-620x300-windows-sdk.png">
+      <PackagePath>Assets\Splashscreen\splashscreen-620x300-windows-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-23T01:22:19.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Splashscreen\splashscreen-620x300-windows-store.png">
+      <PackagePath>Assets\Splashscreen\splashscreen-620x300-windows-store.png</PackagePath>
+      <Modified>2016-11-23T01:22:19.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <Modified>2016-11-23T01:22:19.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-23T01:22:19.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <Modified>2016-11-23T01:22:20.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Splashscreen\splashscreen-1366x768-black-windows-7-aluminum.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-black-windows-7-aluminum.jpg</PackagePath>
+      <Modified>2016-11-23T01:22:19.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Splashscreen\splashscreen-1366x768-black-windows-xp-leather.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-black-windows-xp-leather.jpg</PackagePath>
+      <Modified>2016-11-23T01:22:19.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Splashscreen\splashscreen-1366x768-windows-7-black-hd.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-black-hd.jpg</PackagePath>
+      <Modified>2016-11-23T01:22:19.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Splashscreen\splashscreen-1366x768-windows-7-black.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-black.jpg</PackagePath>
+      <Modified>2016-11-23T01:22:19.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Splashscreen\splashscreen-1366x768-windows-7-turquoise.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-turquoise.jpg</PackagePath>
+      <Modified>2016-11-23T01:22:19.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\Assets\Videos\MyVideo.mp4">
+      <PackagePath>Assets\Videos\MyVideo.mp4</PackagePath>
+      <Modified>2016-11-23T01:22:20.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-11-23T00:51:10.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\bin\Debug\LoginControl.xbf">
+      <PackagePath>LoginControl.xbf</PackagePath>
+      <Modified>2016-11-23T02:11:44.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-11-23T04:03:50.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\bin\Debug\MyPage.xbf">
+      <PackagePath>MyPage.xbf</PackagePath>
+      <Modified>2016-11-23T04:03:50.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\bin\Debug\Nov23rdAWSAD2UserControls.xr.xml">
+      <PackagePath>Nov23rdAWSAD2UserControls.xr.xml</PackagePath>
+      <Modified>2016-11-23T04:03:50.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov23rdAWSAD2UserControls\Nov23rdAWSAD2UserControls\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-11-23T04:03:50.851</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

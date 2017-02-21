@@ -1,0 +1,2 @@
+c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\BackgroundTasks\BackgroundTasks.csproj;neutral
+c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Dec07thAWSAD2\Baitap02\Baitap02.csproj;neutral

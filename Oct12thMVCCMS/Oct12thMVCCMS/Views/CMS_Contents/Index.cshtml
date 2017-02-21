@@ -1,0 +1,132 @@
+﻿@model IEnumerable<Oct12thMVCCMS.Models.CMS_Contents>
+
+@{
+    ViewBag.Title = "Index";
+    
+}
+<!-- Can 2 dong nay de su dung phan trang tren view  -->
+@using PagedList;
+@using PagedList.Mvc;
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<!-- De giu duoc thong tin search / Order sau khi chuyen trang, su dung phuong thuc Get thay cho Post. O day form se Get vao controller CMS_Contents, action Index  -->
+@using (Html.BeginForm("Index", "CMS_Contents", FormMethod.Get))
+{
+    <div>Search: @Html.TextBox("searchText") <input type="submit" value="Search" /></div>
+}
+<table class="table">
+    <tr>
+        <th>
+            <!-- goc: Html.DisplayNameFor(model => model.Content_Headline)  -->
+            <!-- Phan nay thay bang actionlink de sap xep du lieu khi bam vao tieu de. Thong tin truyen theo actionlink nay bao gom searchText va orderColumn de duy tri viec tim kiem khi sap xep lai cot du lieu  -->
+            @Html.ActionLink(@Html.DisplayNameFor(model => model.Content_Headline).ToString(), "Index", new { searchText = ViewBag.SearchText, orderColumn = (ViewBag.OrderColumn!="Content_HeadlineASC"?"Content_HeadlineASC":"Content_HeadlineDESC") })
+        </th>
+        <th>
+            <!-- Dao chieu sap xep neu dang sap xep cot theo 1 trong 2 chieu ASC hoac DESC  -->
+            @Html.ActionLink(@Html.DisplayNameFor(model => model.Content_Teaser).ToString(), "Index", new { searchText = ViewBag.SearchText, orderColumn = (ViewBag.OrderColumn != "Content_TeaserASC" ? "Content_TeaserASC" : "Content_TeaserDESC") })
+            
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_Avatar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_CreateDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_ModifiedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_UserID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_ModifiedUserID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_Comment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_IsFocus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_IsHot)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_LgID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_Viewed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content_FocusID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CMS_Zones.Zone_Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_Headline)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_Teaser)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_Avatar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_CreateDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_ModifiedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_UserID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_ModifiedUserID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_Comment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_IsFocus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_IsHot)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_LgID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_Viewed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content_FocusID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CMS_Zones.Zone_Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Content_ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Content_ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Content_ID })
+        </td>
+    </tr>
+}
+
+</table>
+<!-- Phan nay de hien thi phan trang. Ngoai parameter page de hien thi so trang, them parameter searchText va orderColumn de noi tiep trang thai tim kiem / sap xep hien co.  -->
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page, searchText = ViewBag.SearchText, orderColumn=ViewBag.OrderColumn }))

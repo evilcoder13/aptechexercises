@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Oct17thMVCSchoolManagement.Models.Person>
+@using PagedList;
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using(Html.BeginForm("Index","People", FormMethod.Get))
+{ @Html.TextBox("SearchName")
+@Html.DropDownList("CourseSearch", "Choose a course!")
+    <input type="submit" value="Search" />
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink(@Html.DisplayNameFor(model => model.LastName).ToString(), "Index", new { CourseSearch = ViewBag.SearchCourse, SearchName = ViewBag.SearchName, OrderTable = (ViewBag.OrderTable == "LastNameDESC" ? "LastNameASC" : "LastNameDESC") })
+        </th>
+        <th>
+            @Html.ActionLink(@Html.DisplayNameFor(model => model.FirstName).ToString(), "Index", new { CourseSearch = ViewBag.SearchCourse, SearchName = ViewBag.SearchName, OrderTable = (ViewBag.OrderTable == "FirstNameDESC" ? "FirstNameASC" : "FirstNameDESC") })
+        </th>
+        <th>
+            @Html.ActionLink(@Html.DisplayNameFor(model => model.HireDate).ToString(), "Index", new { CourseSearch = ViewBag.SearchCourse, SearchName = ViewBag.SearchName, OrderTable = (ViewBag.OrderTable == "HireDateDESC" ? "HireDateASC" : "HireDateDESC") })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EnrollmentDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OfficeAssignment.Location)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HireDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EnrollmentDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OfficeAssignment.Location)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PersonID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PersonID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PersonID })
+        </td>
+    </tr>
+}
+
+</table>
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page, CourseSearch = ViewBag.SearchCourse, SearchName = ViewBag.SearchName, OrderTable = ViewBag.OrderTable }))

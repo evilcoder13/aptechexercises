@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>84f79ea8-d81b-4762-9ecc-d22426dc1f1a</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\bin\Debug\Oct19thWSADProductManagement.exe">
+      <PackagePath>Oct19thWSADProductManagement.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\ColorPickinChooser_256px.png">
+      <PackagePath>Assets\ColorPickinChooser_256px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\empty-img.png">
+      <PackagePath>Assets\empty-img.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\empty-profile.png">
+      <PackagePath>Assets\empty-profile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\logo-150x150-facebook.png">
+      <PackagePath>Assets\logo-150x150-facebook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\logo-150x150-windows.png">
+      <PackagePath>Assets\logo-150x150-windows.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\logo-150x150-youtube.png">
+      <PackagePath>Assets\logo-150x150-youtube.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\logo-30x30-facebook.png">
+      <PackagePath>Assets\logo-30x30-facebook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\logo-30x30-youtube.png">
+      <PackagePath>Assets\logo-30x30-youtube.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\logo-30x30.png">
+      <PackagePath>Assets\logo-30x30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\logo-310x150-google.png">
+      <PackagePath>Assets\logo-310x150-google.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\splashscreen-620x300.png">
+      <PackagePath>Assets\splashscreen-620x300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\square-30x30-logo.png">
+      <PackagePath>Assets\square-30x30-logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\windows-logo-square-256x256.png">
+      <PackagePath>Assets\windows-logo-square-256x256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Laptop1.jpg">
+      <PackagePath>Assets\Laptop1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Laptop2.jpg">
+      <PackagePath>Assets\Laptop2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Laptop3.jpg">
+      <PackagePath>Assets\Laptop3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Laptop4.jpg">
+      <PackagePath>Assets\Laptop4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Laptop5.jpg">
+      <PackagePath>Assets\Laptop5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Pen.jpg">
+      <PackagePath>Assets\Pen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-avatar.jpg">
+      <PackagePath>Assets\posters\movie-avatar.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-fast-and-furious-7.jpg">
+      <PackagePath>Assets\posters\movie-fast-and-furious-7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-frozen.jpg">
+      <PackagePath>Assets\posters\movie-frozen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-iron-man-3.jpg">
+      <PackagePath>Assets\posters\movie-iron-man-3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-jurassic-world.jpg">
+      <PackagePath>Assets\posters\movie-jurassic-world.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-minions.jpg">
+      <PackagePath>Assets\posters\movie-minions.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-oscar-84.jpg">
+      <PackagePath>Assets\posters\movie-oscar-84.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-star-wars.jpg">
+      <PackagePath>Assets\posters\movie-star-wars.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-the-avengers.jpg">
+      <PackagePath>Assets\posters\movie-the-avengers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-titanic.jpg">
+      <PackagePath>Assets\posters\movie-titanic.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\profiles\profile-bill-gates.jpg">
+      <PackagePath>Assets\profiles\profile-bill-gates.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\profiles\profile-binh.jpg">
+      <PackagePath>Assets\profiles\profile-binh.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\profiles\profile-larry-ellison.jpg">
+      <PackagePath>Assets\profiles\profile-larry-ellison.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\profiles\profile-quang.jpg">
+      <PackagePath>Assets\profiles\profile-quang.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\profiles\profile-steve-jobs.jpg">
+      <PackagePath>Assets\profiles\profile-steve-jobs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\profiles\profile-tim-cook.jpg">
+      <PackagePath>Assets\profiles\profile-tim-cook.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\profiles\profile-zuckerberg.jpg">
+      <PackagePath>Assets\profiles\profile-zuckerberg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Splashscreen\splashscreen-1366x768-abstract-paint.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-abstract-paint.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Splashscreen\splashscreen-1366x768-artsfon.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-artsfon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Splashscreen\splashscreen-1366x768-black-windows-xp-leather.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-black-windows-xp-leather.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Splashscreen\splashscreen-1366x768-colorful.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-colorful.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Splashscreen\splashscreen-1366x768-windows-7-black-hd.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-black-hd.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\Splashscreen\splashscreen-1366x768-windows-7-black.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-black.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\Assets\posters\movie-transformers.jpeg">
+      <PackagePath>Assets\posters\movie-transformers.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\bin\Debug\BrowsePage.xbf">
+      <PackagePath>BrowsePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\bin\Debug\DetailPage.xbf">
+      <PackagePath>DetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\bin\Debug\Oct19thWSADProductManagement.xr.xml">
+      <PackagePath>Oct19thWSADProductManagement.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Oct19thWSADProductManagement\Oct19thWSADProductManagement\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

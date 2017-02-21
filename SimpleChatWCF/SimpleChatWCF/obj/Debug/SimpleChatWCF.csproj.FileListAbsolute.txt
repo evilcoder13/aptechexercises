@@ -1,0 +1,10 @@
+c:\users\thang.dm\documents\visual studio 2013\Projects\SimpleChatWCF\SimpleChatWCF\bin\Debug\SimpleChatWCF.exe.config
+c:\users\thang.dm\documents\visual studio 2013\Projects\SimpleChatWCF\SimpleChatWCF\bin\Debug\SimpleChatWCF.exe
+c:\users\thang.dm\documents\visual studio 2013\Projects\SimpleChatWCF\SimpleChatWCF\bin\Debug\SimpleChatWCF.pdb
+c:\users\thang.dm\documents\visual studio 2013\Projects\SimpleChatWCF\SimpleChatWCF\obj\Debug\SimpleChatWCF.csprojResolveAssemblyReference.cache
+c:\users\thang.dm\documents\visual studio 2013\Projects\SimpleChatWCF\SimpleChatWCF\obj\Debug\SimpleChatWCF.Chat.resources
+c:\users\thang.dm\documents\visual studio 2013\Projects\SimpleChatWCF\SimpleChatWCF\obj\Debug\SimpleChatWCF.Form1.resources
+c:\users\thang.dm\documents\visual studio 2013\Projects\SimpleChatWCF\SimpleChatWCF\obj\Debug\SimpleChatWCF.Properties.Resources.resources
+c:\users\thang.dm\documents\visual studio 2013\Projects\SimpleChatWCF\SimpleChatWCF\obj\Debug\SimpleChatWCF.csproj.GenerateResource.Cache
+c:\users\thang.dm\documents\visual studio 2013\Projects\SimpleChatWCF\SimpleChatWCF\obj\Debug\SimpleChatWCF.exe
+c:\users\thang.dm\documents\visual studio 2013\Projects\SimpleChatWCF\SimpleChatWCF\obj\Debug\SimpleChatWCF.pdb

@@ -1,0 +1,146 @@
+﻿@model Oct12thMVCCMS.Models.CMS_Contents
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CMS_Contents</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Headline)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Headline)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Teaser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Teaser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Body)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Body)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Avatar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Avatar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_CreateDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_CreateDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_ModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_UserID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_UserID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_ModifiedUserID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_ModifiedUserID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Comment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Comment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_IsFocus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_IsFocus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_IsHot)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_IsHot)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_LgID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_LgID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_Viewed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_Viewed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content_FocusID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Content_FocusID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CMS_Zones.Zone_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CMS_Zones.Zone_Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Content_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

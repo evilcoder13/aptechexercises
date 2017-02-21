@@ -1,0 +1,61 @@
+﻿<Page
+    x:Class="Dec2ndWSAD1.NextPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Dec2ndWSAD1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="xnPublicationDate" Header="Publication Date" FontSize="36" Width="500" HorizontalAlignment="Left" Margin="754,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="{Binding PublicationDate,Mode=OneWay}"/>
+        <TextBox x:Name="xnDownloads" Header="Downloads" FontSize="36" Width="500" HorizontalAlignment="Left" Margin="754,468,0,0" TextWrapping="Wrap" Text="{Binding Downloads, Mode=OneWay}" VerticalAlignment="Top"/>
+        <TextBox x:Name="xnPrice" Header="Price" FontSize="36" Width="500" HorizontalAlignment="Left" Margin="754,615,0,0" TextWrapping="Wrap" Text="{Binding Price, Mode=OneWay}" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="754,154,0,0" VerticalAlignment="Top" Width="500" FontSize="36" Header="Book Title" x:Name="xnComboBox" SelectionChanged="OnSelectionChanged" ItemsSource="{Binding}"/>
+        <Image HorizontalAlignment="Left" Height="518" Margin="84,186,0,0" VerticalAlignment="Top" Width="524" Stretch="Fill" Source="{Binding ImagePath, Mode=OneWay}"/>
+
+    </Grid>
+    <Page.TopAppBar>
+        <AppBar IsOpen="True">
+            <Grid>
+                <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
+                    <AppBarButton Icon="Calendar" Label="Calendar" />
+                    <AppBarSeparator Background="White" Foreground="White" Margin="0 10 0 0" />
+                    <AppBarButton Icon="Mail" Label="Mail" />
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                    <SearchBox Width="300" />
+                    <AppBarButton Label="Account" Icon="Account">
+                        <AppBarButton.Flyout>
+                            <MenuFlyout>
+                                <MenuFlyoutItem Text="Logout" Click="OnClick_Logout" />
+                                <MenuFlyoutSeparator />
+                                <MenuFlyoutItem Text="About" />
+                                <MenuFlyoutSeparator />
+                                <MenuFlyoutItem Text="Settings" />
+                                <MenuFlyoutSeparator />
+                                <MenuFlyoutItem Text="Exit" Click="OnClick_Exit" />
+                            </MenuFlyout>
+                        </AppBarButton.Flyout>
+                    </AppBarButton>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.TopAppBar>
+    <Page.BottomAppBar>
+        <AppBar>
+            <Grid>
+                <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
+                    <AppBarButton Label="Add" Icon="Add"/>
+                    <AppBarButton Label="Edit" Icon="Edit" />
+                    <AppBarButton Label="Delete" Icon="Delete" />
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                    <AppBarButton Label="Refresh" Icon="Refresh"/>
+                    <AppBarButton Label="Help" Icon="Help" />
+                    <AppBarButton Label="Like" Icon="Like" />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>

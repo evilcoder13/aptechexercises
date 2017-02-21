@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0b455f48-c7cd-4c6f-9bcd-902ef5816751</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>6F53BE68AFFADBB18D4D2DB5FB2BA1867BA6ADF317B45F2EA14041DFB1D06718</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0b455f48-c7cd-4c6f-9bcd-902ef5816751_1.0.0.0_neutral__a3gbs555v3n1g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0b455f48-c7cd-4c6f-9bcd-902ef5816751_a3gbs555v3n1g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0b455f48-c7cd-4c6f-9bcd-902ef5816751</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=thang.dm</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-02T03:15:04.656</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\bin\Debug\Nov2ndWSAD2.exe">
+      <PackagePath>Nov2ndWSAD2.exe</PackagePath>
+      <Modified>2016-11-02T03:15:04.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-10-31T03:49:51.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\empty-img.png">
+      <PackagePath>Assets\empty-img.png</PackagePath>
+      <Modified>2016-10-31T00:48:21.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\empty-profile.png">
+      <PackagePath>Assets\empty-profile.png</PackagePath>
+      <Modified>2016-10-31T00:48:21.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\logo-150x150-windows.png">
+      <PackagePath>Assets\logo-150x150-windows.png</PackagePath>
+      <Modified>2016-10-31T00:48:21.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\logo-30x30.png">
+      <PackagePath>Assets\logo-30x30.png</PackagePath>
+      <Modified>2016-10-31T00:48:21.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-31T00:48:22.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-31T00:48:22.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\splashscreen-620x300.png">
+      <PackagePath>Assets\splashscreen-620x300.png</PackagePath>
+      <Modified>2016-10-31T00:48:22.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-31T00:48:22.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\square-30x30-logo.png">
+      <PackagePath>Assets\square-30x30-logo.png</PackagePath>
+      <Modified>2016-10-31T00:48:22.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <Modified>2016-10-31T00:48:22.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2016-10-31T00:48:22.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-31T00:48:22.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <Modified>2016-10-31T00:48:22.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\profiles\profile-bill-gates.jpg">
+      <PackagePath>Assets\profiles\profile-bill-gates.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\profiles\profile-binh.jpg">
+      <PackagePath>Assets\profiles\profile-binh.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\profiles\profile-larry-ellison.jpg">
+      <PackagePath>Assets\profiles\profile-larry-ellison.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\profiles\profile-quang.jpg">
+      <PackagePath>Assets\profiles\profile-quang.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\profiles\profile-steve-jobs.jpg">
+      <PackagePath>Assets\profiles\profile-steve-jobs.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\profiles\profile-tim-cook.jpg">
+      <PackagePath>Assets\profiles\profile-tim-cook.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\profiles\profile-zuckerberg.jpg">
+      <PackagePath>Assets\profiles\profile-zuckerberg.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-abstract-paint.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-abstract-paint.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-aqua.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-aqua.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-artsfon.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-artsfon.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-black-wide.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-black-wide.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-black-windows-xp-leather.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-black-windows-xp-leather.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-city.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-city.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-colorful.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-colorful.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-cosmic.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-cosmic.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-landscape-minimalism.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-landscape-minimalism.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-macosx.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-macosx.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-mountains_night_sky_stars.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-mountains_night_sky_stars.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-velvet-sky.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-velvet-sky.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-windows-7-black-hd.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-black-hd.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.584</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\Assets\Splashscreen\splashscreen-1366x768-windows-7-black.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-black.jpg</PackagePath>
+      <Modified>2016-10-31T00:48:22.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-11-02T03:09:32.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-11-02T03:09:32.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\bin\Debug\NextPage.xbf">
+      <PackagePath>NextPage.xbf</PackagePath>
+      <Modified>2016-11-02T03:09:32.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\bin\Debug\Nov2ndWSAD2.xr.xml">
+      <PackagePath>Nov2ndWSAD2.xr.xml</PackagePath>
+      <Modified>2016-11-02T03:09:31.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\visual studio 2013\Projects\Nov2ndWSAD2\Oct31thWSAD2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-11-02T03:09:33.108</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,42 @@
+﻿@model Oct28thEAP.Models.Exam
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Exam</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cls.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cls.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Std.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Std.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mark)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mark)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

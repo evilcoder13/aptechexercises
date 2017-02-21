@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="Nov28thAWSAD1SimpleNote.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nov28thAWSAD1SimpleNote"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Uid="uidUsername" HorizontalAlignment="Left" Margin="231,171,0,0" Header="User Name" PlaceholderText="Input Username" TextWrapping="Wrap" VerticalAlignment="Top" Height="134" Width="904" FontSize="40" Name="xnUserName"/>
+        <TextBox x:Uid="uidPassword" HorizontalAlignment="Left" Margin="231,339,0,0" Header="Password" PlaceholderText="Input Password" TextWrapping="Wrap" VerticalAlignment="Top" Height="134" Width="904" FontSize="40" Name="xnPassword"/>
+        <Button x:ConnectionId='1' x:Uid="uidLogin" Content="Login" HorizontalAlignment="Left" Margin="228,543,0,0" VerticalAlignment="Top" Height="73" Width="314" FontSize="40"                     />
+        <Button x:ConnectionId='2' x:Uid="uidRegister" Content="Register" HorizontalAlignment="Left" Margin="588,543,0,0" VerticalAlignment="Top" Height="73" Width="314" FontSize="40"                        />
+    </Grid>
+    <Page.BottomAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal">
+                <AppBarButton x:ConnectionId='3' Label="Exit" Icon="Cancel" HorizontalAlignment="Center"                    />
+                <AppBarButton x:ConnectionId='4' Label="Share" Icon="ReShare" HorizontalAlignment="Center"                     />
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+

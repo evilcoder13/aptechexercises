@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Translations\en-US\Resources.resw</FileName>
+    <Checksum>22625121126108123103114205361341754108140244</Checksum>
+    <ModifiedTime>2016-11-23T09:06:39.5549195</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Nov23rdAWSAD2UserControls.qps-ploc.xlf</FileName>
+    <Checksum>23374383112225136114186144747693327222</Checksum>
+    <ModifiedTime>2016-11-23T09:07:53.011716+07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Translations\qps-ploc\Resources.resw</FileName>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2016-11-23T09:07:53.5487499+07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Nov23rdAWSAD2UserControls.vi-VN.xlf</FileName>
+    <Checksum>1831945623417624238020113192812336825130</Checksum>
+    <ModifiedTime>2016-11-23T09:08:10.9588883+07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Translations\vi-VN\Resources.resw</FileName>
+    <Checksum>15415615516417818181489671781921096072230</Checksum>
+    <ModifiedTime>2016-11-23T09:10:33.0581636+07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

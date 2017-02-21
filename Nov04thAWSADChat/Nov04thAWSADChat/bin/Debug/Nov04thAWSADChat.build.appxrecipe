@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>4a5d83fc-9b10-4112-9cb2-d75d3ab8f7d9</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\bin\Debug\Nov04thAWSADChat.exe">
+      <PackagePath>Nov04thAWSADChat.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\empty-img.png">
+      <PackagePath>Assets\empty-img.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\empty-profile.png">
+      <PackagePath>Assets\empty-profile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\logo-150x150-windows.png">
+      <PackagePath>Assets\logo-150x150-windows.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\logo-30x30.png">
+      <PackagePath>Assets\logo-30x30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\splashscreen-620x300.png">
+      <PackagePath>Assets\splashscreen-620x300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\square-30x30-logo.png">
+      <PackagePath>Assets\square-30x30-logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\profiles\profile-bill-gates.jpg">
+      <PackagePath>Assets\profiles\profile-bill-gates.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\profiles\profile-binh.jpg">
+      <PackagePath>Assets\profiles\profile-binh.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\profiles\profile-larry-ellison.jpg">
+      <PackagePath>Assets\profiles\profile-larry-ellison.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\profiles\profile-quang.jpg">
+      <PackagePath>Assets\profiles\profile-quang.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\profiles\profile-steve-jobs.jpg">
+      <PackagePath>Assets\profiles\profile-steve-jobs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\profiles\profile-tim-cook.jpg">
+      <PackagePath>Assets\profiles\profile-tim-cook.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\profiles\profile-zuckerberg.jpg">
+      <PackagePath>Assets\profiles\profile-zuckerberg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-abstract-paint.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-abstract-paint.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-aqua.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-aqua.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-artsfon.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-artsfon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-black-wide.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-black-wide.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-black-windows-xp-leather.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-black-windows-xp-leather.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-city.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-city.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-colorful.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-colorful.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-cosmic.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-cosmic.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-landscape-minimalism.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-landscape-minimalism.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-macosx.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-macosx.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-mountains_night_sky_stars.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-mountains_night_sky_stars.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-velvet-sky.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-velvet-sky.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-windows-7-black-hd.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-black-hd.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\Assets\Splashscreen\splashscreen-1366x768-windows-7-black.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-black.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\bin\Debug\Chat.xbf">
+      <PackagePath>Chat.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\bin\Debug\Nov04thAWSADChat.xr.xml">
+      <PackagePath>Nov04thAWSADChat.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thAWSADChat\Nov04thAWSADChat\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

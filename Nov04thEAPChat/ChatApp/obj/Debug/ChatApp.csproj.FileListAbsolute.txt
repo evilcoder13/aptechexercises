@@ -1,0 +1,10 @@
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\ChatApp\bin\Debug\ChatApp.exe.config
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\ChatApp\obj\Debug\ChatApp.csprojResolveAssemblyReference.cache
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\ChatApp\obj\Debug\ChatApp.Login.resources
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\ChatApp\obj\Debug\ChatApp.MainForm.resources
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\ChatApp\obj\Debug\ChatApp.Properties.Resources.resources
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\ChatApp\obj\Debug\ChatApp.csproj.GenerateResource.Cache
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\ChatApp\bin\Debug\ChatApp.exe
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\ChatApp\bin\Debug\ChatApp.pdb
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\ChatApp\obj\Debug\ChatApp.exe
+c:\users\thang.dm\documents\visual studio 2013\Projects\Nov04thEAPChat\ChatApp\obj\Debug\ChatApp.pdb

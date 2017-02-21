@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="Oct17thWSADEmployeeManagement.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Oct17thWSADEmployeeManagement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock Text="Welcome to Company Windows Store App" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="48" />
+    </Grid>
+    <Page.TopAppBar>
+        <AppBar IsOpen="True" Background="#E559A5D1">
+            <StackPanel Orientation="Horizontal">
+                <AppBarButton Label="Home" Icon="Home"/>
+                <AppBarSeparator Foreground="White" />
+                <AppBarButton Label="Employee" Icon="Contact" Click="Employee_Click"/>
+                <AppBarSeparator Foreground="White" />
+                <AppBarButton Label="Files" Icon="Folder">
+                    <AppBarButton.Flyout>
+                        <MenuFlyout>
+                            <MenuFlyoutItem Text="Browse Photos" Click="BrowsePhoto_Click" />
+                            <MenuFlyoutItem Text="List Files and Folders"  Click="BrowseFolders_Click" />
+                        </MenuFlyout>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+</Page>

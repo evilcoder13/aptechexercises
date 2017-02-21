@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>99cdebe3-a1cb-44e7-a9cb-11e10050965f</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>763D282F2E7929555078851C408819CBCF6170DDB6C86F843B1D67E75AFB1A97</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>99cdebe3-a1cb-44e7-a9cb-11e10050965f_1.0.0.0_neutral__a3gbs555v3n1g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>99cdebe3-a1cb-44e7-a9cb-11e10050965f_a3gbs555v3n1g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>99cdebe3-a1cb-44e7-a9cb-11e10050965f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=thang.dm</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-21T03:03:03.561</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\bin\Debug\Nov21stAWSADWeather.exe">
+      <PackagePath>Nov21stAWSADWeather.exe</PackagePath>
+      <Modified>2016-11-21T04:02:52.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\packages\Microsoft.ApplicationInsights.RuntimeTelemetry.0.14.0-build20632\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.winmd</PackagePath>
+      <Modified>2016-11-21T01:11:50.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\packages\Microsoft.ApplicationInsights.WindowsStore.0.14.0-build20632\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.winmd</PackagePath>
+      <Modified>2016-11-21T01:11:51.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\packages\Microsoft.ApplicationInsights.0.14.0-build20632\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.winmd</PackagePath>
+      <Modified>2016-11-21T01:11:50.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.16-beta\build\portable-net45+win8+wpa81\..\..\lib\net45\Microsoft.Diagnostics.Tracing.EventSource.dll">
+      <PackagePath>Microsoft.Diagnostics.Tracing.EventSource.dll</PackagePath>
+      <Modified>2016-11-21T01:11:50.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-11-21T02:05:00.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\obj\Debug\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2016-11-21T03:02:49.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\Assets\image.png">
+      <PackagePath>Assets\image.png</PackagePath>
+      <Modified>2016-11-21T03:01:26.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\Assets\weather-magic-for-ios.jpg">
+      <PackagePath>Assets\weather-magic-for-ios.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-21T02:59:50.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\Assets\weather-report-studio_w24.jpg">
+      <PackagePath>Assets\weather-report-studio_w24.jpg</PackagePath>
+      <Modified>2016-11-21T02:59:50.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-11-21T03:02:49.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-11-21T03:02:49.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\bin\Debug\WeatherPage.xbf">
+      <PackagePath>WeatherPage.xbf</PackagePath>
+      <Modified>2016-11-21T03:02:49.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\bin\Debug\Nov21stAWSADWeather.xr.xml">
+      <PackagePath>Nov21stAWSADWeather.xr.xml</PackagePath>
+      <Modified>2016-11-21T02:50:56.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\thang.dm\documents\visual studio 2013\Projects\Nov21stAWSADWeather\Nov21stAWSADWeather\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-11-21T04:02:52.932</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

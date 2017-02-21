@@ -1,0 +1,50 @@
+﻿@model Oct5thMVCProjectManagement.Models.Management
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Management</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cust.CustName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cust.CustName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Emp.EmpName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Emp.EmpName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Prj.PrjName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Prj.PrjName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Note)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Note)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

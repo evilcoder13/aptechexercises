@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0da1bbf5-a596-4fdd-b868-86c1a3913040</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>71A26A3B67293A387C925C2436EEEE63F791A0FD37932F94A919814D85EB026A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0da1bbf5-a596-4fdd-b868-86c1a3913040_1.0.0.0_neutral__a3gbs555v3n1g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0da1bbf5-a596-4fdd-b868-86c1a3913040_a3gbs555v3n1g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0da1bbf5-a596-4fdd-b868-86c1a3913040</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=thang.dm</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-21T02:45:33.148</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\bin\Debug\Oct17thWSADEmployeeManagement.exe">
+      <PackagePath>Oct17thWSADEmployeeManagement.exe</PackagePath>
+      <Modified>2016-10-21T03:01:13.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-10-21T02:08:29.182</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\Assets\logo-30x30-sdk.png">
+      <PackagePath>Assets\logo-30x30-sdk.png</PackagePath>
+      <Modified>2016-07-05T07:38:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-05T07:38:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\Assets\splashscreen-620x300-windows-store.png">
+      <PackagePath>Assets\splashscreen-620x300-windows-store.png</PackagePath>
+      <Modified>2015-09-25T01:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-25T01:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-22T23:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-10-17T01:37:30.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\bin\Debug\EmployeeDetail.xbf">
+      <PackagePath>EmployeeDetail.xbf</PackagePath>
+      <Modified>2016-10-17T04:04:11.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\bin\Debug\EmployeeList.xbf">
+      <PackagePath>EmployeeList.xbf</PackagePath>
+      <Modified>2016-10-21T02:51:00.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-10-21T02:45:31.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\bin\Debug\Oct17thWSADEmployeeManagement.xr.xml">
+      <PackagePath>Oct17thWSADEmployeeManagement.xr.xml</PackagePath>
+      <Modified>2016-10-21T02:51:00.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Oct17thWSADEmployeeManagement\Oct17thWSADEmployeeManagement\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-10-21T02:45:32.567</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

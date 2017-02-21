@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CMSDBModelStoreContainer" CdmEntityContainer="CMSDBEntities">
+    <EntitySetMapping Name="CMS_Contents">
+      <EntityTypeMapping TypeName="CMSDBModel.CMS_Contents">
+        <MappingFragment StoreEntitySet="CMS_Contents">
+          <ScalarProperty Name="Content_ID" ColumnName="Content_ID" />
+          <ScalarProperty Name="Content_Headline" ColumnName="Content_Headline" />
+          <ScalarProperty Name="Content_Teaser" ColumnName="Content_Teaser" />
+          <ScalarProperty Name="Content_Body" ColumnName="Content_Body" />
+          <ScalarProperty Name="Content_Avatar" ColumnName="Content_Avatar" />
+          <ScalarProperty Name="Content_CreateDate" ColumnName="Content_CreateDate" />
+          <ScalarProperty Name="Content_ModifiedDate" ColumnName="Content_ModifiedDate" />
+          <ScalarProperty Name="Content_Status" ColumnName="Content_Status" />
+          <ScalarProperty Name="Content_ZoneID" ColumnName="Content_ZoneID" />
+          <ScalarProperty Name="Content_UserID" ColumnName="Content_UserID" />
+          <ScalarProperty Name="Content_ModifiedUserID" ColumnName="Content_ModifiedUserID" />
+          <ScalarProperty Name="Content_Comment" ColumnName="Content_Comment" />
+          <ScalarProperty Name="Content_IsFocus" ColumnName="Content_IsFocus" />
+          <ScalarProperty Name="Content_IsHot" ColumnName="Content_IsHot" />
+          <ScalarProperty Name="Content_LgID" ColumnName="Content_LgID" />
+          <ScalarProperty Name="Content_Viewed" ColumnName="Content_Viewed" />
+          <ScalarProperty Name="Content_FocusID" ColumnName="Content_FocusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CMS_Zones">
+      <EntityTypeMapping TypeName="CMSDBModel.CMS_Zones">
+        <MappingFragment StoreEntitySet="CMS_Zones">
+          <ScalarProperty Name="Zone_ID" ColumnName="Zone_ID" />
+          <ScalarProperty Name="Zone_Name" ColumnName="Zone_Name" />
+          <ScalarProperty Name="Zone_ParentID" ColumnName="Zone_ParentID" />
+          <ScalarProperty Name="Zone_Priority" ColumnName="Zone_Priority" />
+          <ScalarProperty Name="Zone_Type" ColumnName="Zone_Type" />
+          <ScalarProperty Name="Zone_Alias" ColumnName="Zone_Alias" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

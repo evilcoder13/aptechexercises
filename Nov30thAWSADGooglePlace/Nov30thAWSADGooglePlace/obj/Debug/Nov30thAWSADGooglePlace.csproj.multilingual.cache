@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Translations\en-US\Resources.resw</FileName>
+    <Checksum>30983451110196919481437435125124144239</Checksum>
+    <ModifiedTime>2016-11-30T08:14:09.9670383</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Nov30thAWSADGooglePlace.qps-ploc.xlf</FileName>
+    <Checksum>128238888516015538233120623744211118941</Checksum>
+    <ModifiedTime>2016-11-30T08:15:38.3528068+07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Translations\qps-ploc\Resources.resw</FileName>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2016-11-30T08:15:38.9758477+07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Nov30thAWSADGooglePlace.vi-VN.xlf</FileName>
+    <Checksum>6175188251134881521829112107316423467116</Checksum>
+    <ModifiedTime>2016-11-30T08:15:54.4848609+07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Translations\vi-VN\Resources.resw</FileName>
+    <Checksum>15415615516417818181489671781921096072230</Checksum>
+    <ModifiedTime>2016-11-30T08:16:17.5563668+07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>
