@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAB109</Machine>
+    <WindowsUser>thang.dm</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>05d73229-04bb-4f2d-9616-2a9a5b5e1255</PackageIdentityName>
+    <IntermediateOutputPath>c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\bin\Debug\Jan09thAWSAD1.exe">
+      <PackagePath>Jan09thAWSAD1.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Utilities\bin\Debug\Utilities.winmd">
+      <PackagePath>Utilities.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\apple-logo-128.png">
+      <PackagePath>Assets\apple-logo-128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Apple_Logo_2015_03.png">
+      <PackagePath>Assets\Apple_Logo_2015_03.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\apple_logo_270x270.png">
+      <PackagePath>Assets\apple_logo_270x270.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\flag-256x256-jp.png">
+      <PackagePath>Assets\flag-256x256-jp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\flag-256x256-us.png">
+      <PackagePath>Assets\flag-256x256-us.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\flag-256x256-vn.png">
+      <PackagePath>Assets\flag-256x256-vn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\logo-150x150-windows-8.png">
+      <PackagePath>Assets\logo-150x150-windows-8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\logo-150x150-windows-white.png">
+      <PackagePath>Assets\logo-150x150-windows-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\logo-150x150-windows.png">
+      <PackagePath>Assets\logo-150x150-windows.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\logo-30x30-apple.png">
+      <PackagePath>Assets\logo-30x30-apple.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\logo-30x30-sdk.png">
+      <PackagePath>Assets\logo-30x30-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\logo-30x30.png">
+      <PackagePath>Assets\logo-30x30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\logo-310x150-apple-stevejobs.png">
+      <PackagePath>Assets\logo-310x150-apple-stevejobs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\logo-310x150-Windows.png">
+      <PackagePath>Assets\logo-310x150-Windows.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\logo-310x310.scale-100.png">
+      <PackagePath>Assets\logo-310x310.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\splashscreen-620x300.png">
+      <PackagePath>Assets\splashscreen-620x300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\pixar-animation-studio-logo.jpg">
+      <PackagePath>Assets\pixar-animation-studio-logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\image-wallpaper-1366-768-pictures-wallpaper-Some-sea-Pebbles-free-Ni765423.jpg">
+      <PackagePath>Assets\Splashscreen\image-wallpaper-1366-768-pictures-wallpaper-Some-sea-Pebbles-free-Ni765423.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-abstract-paint.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-abstract-paint.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-alien.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-alien.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-aqua.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-aqua.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-black-white-lion.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-black-white-lion.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-black-wide.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-black-wide.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-black-windows-xp-leather.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-black-windows-xp-leather.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-city.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-city.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-colorful.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-colorful.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-dark-triangle.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-dark-triangle.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-landscape-minimalism.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-landscape-minimalism.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-machine-wolf.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-machine-wolf.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-mountains_night_sky_stars.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-mountains_night_sky_stars.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-pets-faces.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-pets-faces.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-rocky-space.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-rocky-space.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-sunrise-cloud-wallpaper.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-sunrise-cloud-wallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-windows-7-black-hd.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-black-hd.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-windows-7-black.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-windows-7-black.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\splashscreen-1366x768-world-map.jpg">
+      <PackagePath>Assets\Splashscreen\splashscreen-1366x768-world-map.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Splashscreen\wide-wallpaper-1366x768-zelda-triforce.jpg">
+      <PackagePath>Assets\Splashscreen\wide-wallpaper-1366x768-zelda-triforce.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Videos\Film Clip Pixar%27s %27The Blue Umbrella%27.mp4">
+      <PackagePath>Assets\Videos\Film Clip Pixar%27s %27The Blue Umbrella%27.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Videos\MyVideo.mp4">
+      <PackagePath>Assets\Videos\MyVideo.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\Assets\Videos\Where%27s My Mommy.mp4">
+      <PackagePath>Assets\Videos\Where%27s My Mommy.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\bin\Debug\AboutFlyout.xbf">
+      <PackagePath>AboutFlyout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\bin\Debug\NextPage.xbf">
+      <PackagePath>NextPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\bin\Debug\Jan09thAWSAD1.xr.xml">
+      <PackagePath>Jan09thAWSAD1.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\thang.dm\Documents\Visual Studio 2013\Projects\Jan09thAWSAD1\Jan09thAWSAD1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

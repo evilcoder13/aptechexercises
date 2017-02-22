@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Jan09thAWSAD1.NextPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Jan09thAWSAD1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Name="xnGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    </Grid>
+    <Page.BottomAppBar>
+        <AppBar>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <AppBarButton x:ConnectionId='1' Icon="Setting" Label="Setting"                       />
+                <AppBarButton x:ConnectionId='2' Icon="ContactInfo" Label="About"                     />
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+

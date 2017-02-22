@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="Jan09thAWSAD1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Jan09thAWSAD1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Splashscreen/splashscreen-1366x768-windows-7-black-hd" />
+        </Grid.Background>
+        <TextBox x:ConnectionId='1' Name="xnUsername" x:Uid="uidUsername" Header="Username" FontSize="36" HorizontalAlignment="Left" Margin="228,116,0,0" VerticalAlignment="Top" Height="110" Width="927"                             />
+        <PasswordBox x:ConnectionId='2' x:Name="xnPassword" x:Uid="uidPassword" Header="Password" FontSize="36" HorizontalAlignment="Left" Margin="228,272,0,0" VerticalAlignment="Top" Height="110" Width="927"                             />
+        <ComboBox x:ConnectionId='3' ItemsSource="{Binding}" x:Name="xnComboBox" x:Uid="uidComboBox" Header="Select Language" FontSize="36" HorizontalAlignment="Left" Margin="228,442,0,0" VerticalAlignment="Top" Height="110" Width="471"                                      />
+        <Image Name="xnImage" x:Uid="uidImage" HorizontalAlignment="Left" Height="110" Margin="770,442,0,0" VerticalAlignment="Top" Width="258"/>
+        <AppBarButton x:ConnectionId='4' Icon="Forward" Label="Login" x:Uid="uidLogin"                       HorizontalAlignment="Left" Margin="1061,452,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="xnMsg" x:Uid="uidMsg" Foreground="Red" FontSize="36" Text="Please login !" Margin="228,600,428,82"/>
+
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.PrimaryCommands>
+                <AppBarButton Icon="Back" Label="Back" />
+                <AppBarButton Icon="Cancel" Label="Exit" />
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Icon="Add" Label="Add" />
+                <AppBarButton Icon="Edit" Label="Edit" />
+                <AppBarButton Icon="Delete" Label="Delete" />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+
